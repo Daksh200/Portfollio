@@ -2,37 +2,60 @@
 
 import { useEffect, useRef } from 'react';
 import * as THREE from 'three';
+import { gsap } from 'gsap';
 
-export function ThreeCanvas() {
+type ShapeType = 'cube' | 'icosahedron' | 'torus';
+
+interface ThreeCanvasProps {
+  shape: ShapeType;
+}
+
+export function ThreeCanvas({ shape }: ThreeCanvasProps) {
   const mountRef = useRef<HTMLDivElement>(null);
+  const rendererRef = useRef<THREE.WebGLRenderer | null>(null);
+  const sceneRef = useRef<THREE.Scene | null>(null);
+  const cameraRef = useRef<THREE.PerspectiveCamera | null>(null);
+  const meshRef = useRef<THREE.Mesh | null>(null);
+
+  // Define geometries
+  const geometries = {
+    cube: new THREE.BoxGeometry(1.8, 1.8, 1.8),
+    icosahedron: new THREE.IcosahedronGeometry(1.5, 0),
+    torus: new THREE.TorusGeometry(1.2, 0.5, 16, 100),
+  };
 
   useEffect(() => {
-    if (!mountRef.current) return;
+    if (!mountRef.current || rendererRef.current) return;
 
     // Scene
     const scene = new THREE.Scene();
     scene.background = new THREE.Color('hsl(var(--background))');
+    sceneRef.current = scene;
 
     // Camera
-    const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+    const camera = new THREE.PerspectiveCamera(75, mountRef.current.clientWidth / mountRef.current.clientHeight, 0.1, 1000);
     camera.position.z = 5;
+    cameraRef.current = camera;
 
     // Renderer
     const renderer = new THREE.WebGLRenderer({ antialias: true });
-    renderer.setSize(window.innerWidth, window.innerHeight);
+    renderer.setSize(mountRef.current.clientWidth, mountRef.current.clientHeight);
     renderer.setPixelRatio(window.devicePixelRatio);
+    rendererRef.current = renderer;
     mountRef.current.appendChild(renderer.domElement);
 
-    // Geometry and Material
-    const geometry = new THREE.IcosahedronGeometry(1.5, 0);
+    // Material
     const material = new THREE.MeshStandardMaterial({
       color: new THREE.Color('hsl(var(--primary))'),
       metalness: 0.3,
       roughness: 0.6,
     });
-    const cube = new THREE.Mesh(geometry, material);
-    scene.add(cube);
-
+    
+    // Mesh
+    const mesh = new THREE.Mesh(geometries.cube, material);
+    meshRef.current = mesh;
+    scene.add(mesh);
+    
     // Lights
     const ambientLight = new THREE.AmbientLight(0xffffff, 0.5);
     scene.add(ambientLight);
@@ -48,8 +71,10 @@ export function ThreeCanvas() {
     // Animation
     let animationFrameId: number;
     const animate = () => {
-      cube.rotation.x += 0.005;
-      cube.rotation.y += 0.005;
+      if (meshRef.current) {
+        meshRef.current.rotation.x += 0.005;
+        meshRef.current.rotation.y += 0.005;
+      }
       renderer.render(scene, camera);
       animationFrameId = requestAnimationFrame(animate);
     };
@@ -57,28 +82,56 @@ export function ThreeCanvas() {
 
     // Handle Resize
     const handleResize = () => {
-      if (!mountRef.current) return;
+      if (!mountRef.current || !rendererRef.current || !cameraRef.current) return;
       const { clientWidth, clientHeight } = mountRef.current;
-      camera.aspect = clientWidth / clientHeight;
-      camera.updateProjectionMatrix();
-      renderer.setSize(clientWidth, clientHeight);
+      cameraRef.current.aspect = clientWidth / clientHeight;
+      cameraRef.current.updateProjectionMatrix();
+      rendererRef.current.setSize(clientWidth, clientHeight);
     };
     window.addEventListener('resize', handleResize);
-    // Initial resize
     handleResize();
 
     // Cleanup
     return () => {
       cancelAnimationFrame(animationFrameId);
       window.removeEventListener('resize', handleResize);
-      if (mountRef.current) {
-        mountRef.current.removeChild(renderer.domElement);
+      if (mountRef.current && rendererRef.current) {
+        mountRef.current.removeChild(rendererRef.current.domElement);
       }
-      geometry.dispose();
+      Object.values(geometries).forEach(g => g.dispose());
       material.dispose();
       renderer.dispose();
+      rendererRef.current = null;
     };
   }, []);
+
+  useEffect(() => {
+    if (!meshRef.current) return;
+    
+    // Animate scale down
+    gsap.to(meshRef.current.scale, {
+      x: 0,
+      y: 0,
+      z: 0,
+      duration: 0.5,
+      ease: "power2.in",
+      onComplete: () => {
+        // Change geometry
+        meshRef.current!.geometry.dispose();
+        meshRef.current!.geometry = geometries[shape];
+        
+        // Animate scale up
+        gsap.to(meshRef.current!.scale, {
+          x: 1,
+          y: 1,
+          z: 1,
+          duration: 0.5,
+          ease: "power2.out",
+        });
+      }
+    });
+
+  }, [shape]);
 
   return <div ref={mountRef} className="absolute inset-0" />;
 }
