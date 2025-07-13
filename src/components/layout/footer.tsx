@@ -8,7 +8,7 @@ export function Footer() {
       <div className="container mx-auto flex flex-col items-center justify-between gap-4 py-6 md:flex-row">
         <Logo />
         <p className="text-sm text-muted-foreground">
-          © {new Date().getFullYear()} SkillShowcase. All rights reserved.
+          © {new Date().getFullYear()} Daksh's Portfolio. All rights reserved.
         </p>
         <div className="flex items-center gap-4">
           <Link href="#" aria-label="Twitter">

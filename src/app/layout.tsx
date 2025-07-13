@@ -8,7 +8,7 @@ import { Footer } from '@/components/layout/footer';
 import { ThemeProvider } from '@/components/theme-provider';
 
 export const metadata: Metadata = {
-  title: 'SkillShowcase',
+  title: "Daksh's Portfolio",
   description: 'A personal portfolio website to showcase skills and talent',
 };
 
