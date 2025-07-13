@@ -10,11 +10,11 @@ export default function ResumePage() {
     <div className="container mx-auto max-w-5xl px-4 py-12 md:px-6 md:py-16">
       <header className="mb-8 flex flex-col items-center justify-between gap-4 text-center md:flex-row md:text-left">
         <div>
-          <h1 className="font-headline text-4xl font-bold tracking-tighter sm:text-5xl">Jane Doe</h1>
+          <h1 className="font-headline text-4xl font-bold tracking-tighter sm:text-5xl">Daksh</h1>
           <p className="mt-2 text-lg text-muted-foreground">Full Stack Developer & AI Enthusiast</p>
         </div>
         <Button asChild size="lg">
-          <a href="#" download="Jane-Doe-Resume.pdf">
+          <a href="#" download="Daksh-Resume.pdf">
             <Download className="mr-2 h-5 w-5" />
             Download CV
           </a>
@@ -69,7 +69,7 @@ export default function ResumePage() {
             <CardContent className="space-y-3 text-sm">
                 <div className="flex items-center gap-3">
                     <Mail className="h-4 w-4 text-muted-foreground" />
-                    <a href="mailto:jane.doe@email.com" className="hover:text-primary">jane.doe@email.com</a>
+                    <a href="mailto:daksh@email.com" className="hover:text-primary">daksh@email.com</a>
                 </div>
                 <div className="flex items-center gap-3">
                     <Phone className="h-4 w-4 text-muted-foreground" />
@@ -77,11 +77,11 @@ export default function ResumePage() {
                 </div>
                 <div className="flex items-center gap-3">
                     <Linkedin className="h-4 w-4 text-muted-foreground" />
-                     <a href="#" className="hover:text-primary">linkedin.com/in/janedoe</a>
+                     <a href="#" className="hover:text-primary">linkedin.com/in/daksh</a>
                 </div>
                  <div className="flex items-center gap-3">
                     <Github className="h-4 w-4 text-muted-foreground" />
-                     <a href="#" className="hover:text-primary">github.com/janedoe</a>
+                     <a href="#" className="hover:text-primary">github.com/daksh</a>
                 </div>
             </CardContent>
           </Card>

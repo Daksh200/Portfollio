@@ -20,10 +20,10 @@ export default function AboutPage() {
             <div className="flex items-center gap-6">
               <Avatar className="h-24 w-24">
                 <AvatarImage src="https://placehold.co/200x200.png" alt="Profile Picture" />
-                <AvatarFallback>JD</AvatarFallback>
+                <AvatarFallback>D</AvatarFallback>
               </Avatar>
               <div>
-                <CardTitle className="font-headline text-3xl">Jane Doe</CardTitle>
+                <CardTitle className="font-headline text-3xl">Daksh</CardTitle>
                 <CardDescription className="text-lg">Full Stack Developer & AI Enthusiast</CardDescription>
               </div>
             </div>
