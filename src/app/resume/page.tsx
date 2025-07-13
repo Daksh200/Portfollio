@@ -2,8 +2,8 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { allSkills, education, workExperience } from "@/lib/data.tsx";
-import { Download, Building, GraduationCap, Mail, Phone, Linkedin, Github } from "lucide-react";
+import { allSkills, education, workExperience, certificates } from "@/lib/data.tsx";
+import { Download, Building, GraduationCap, Mail, Phone, Linkedin, Github, Award } from "lucide-react";
 
 export default function ResumePage() {
   return (
@@ -95,6 +95,24 @@ export default function ResumePage() {
                   <Badge key={skill} variant="secondary">{skill}</Badge>
                 ))}
               </div>
+            </CardContent>
+          </Card>
+          <Card>
+            <CardHeader>
+              <CardTitle className="font-headline text-xl">Certificates</CardTitle>
+            </CardHeader>
+            <CardContent className="space-y-4">
+              {certificates.map((cert, index) => (
+                <div key={index} className="flex items-start gap-4">
+                  <div className="flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-full bg-secondary mt-1">
+                    <Award className="h-4 w-4 text-primary" />
+                  </div>
+                  <div>
+                    <a href={cert.url} target="_blank" rel="noopener noreferrer" className="font-semibold hover:text-primary">{cert.name}</a>
+                    <p className="text-sm text-muted-foreground">{cert.issuer} - {cert.date}</p>
+                  </div>
+                </div>
+              ))}
             </CardContent>
           </Card>
         </aside>

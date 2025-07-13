@@ -60,6 +60,27 @@ export const education = {
   description: "Graduated with honors. Focused on software engineering, algorithms, and artificial intelligence."
 };
 
+export const certificates = [
+    {
+        name: "Google AI Essentials",
+        issuer: "Google",
+        date: "2023",
+        url: "#"
+    },
+    {
+        name: "Certified Kubernetes Application Developer (CKAD)",
+        issuer: "The Linux Foundation",
+        date: "2022",
+        url: "#"
+    },
+    {
+        name: "Professional Cloud Developer",
+        issuer: "Google Cloud",
+        date: "2021",
+        url: "#"
+    }
+];
+
 const allProjects = [
   {
     title: "AI-Powered Portfolio Analyzer",
