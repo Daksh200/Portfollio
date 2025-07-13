@@ -1,7 +1,7 @@
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { workExperience, education, allSkills } from "@/lib/data";
+import { workExperience, education, allSkills } from "@/lib/data.tsx";
 import { Building, GraduationCap } from "lucide-react";
 
 export default function AboutPage() {

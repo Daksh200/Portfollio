@@ -1,4 +1,4 @@
-import { galleryImages } from "@/lib/data";
+import { galleryImages } from "@/lib/data.tsx";
 import Image from "next/image";
 import { Card, CardContent } from "@/components/ui/card";
 

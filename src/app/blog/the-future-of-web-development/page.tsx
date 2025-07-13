@@ -1,4 +1,4 @@
-import { blogPosts } from "@/lib/data";
+import { blogPosts } from "@/lib/data.tsx";
 import { ArrowLeft, Calendar, User } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";

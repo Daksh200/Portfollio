@@ -1,4 +1,5 @@
 import { Code, Cpu, Database, Paintbrush } from "lucide-react";
+import React from 'react';
 
 export const skills = [
   {

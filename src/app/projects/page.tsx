@@ -1,5 +1,5 @@
 import { ProjectCard } from "@/components/project-card";
-import { projects } from "@/lib/data";
+import { projects } from "@/lib/data.tsx";
 
 export default function ProjectsPage() {
   return (

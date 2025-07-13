@@ -3,7 +3,7 @@ import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle }
 import { ArrowRight, Code, Cpu, Database, Paintbrush, Rocket } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import { featuredProjects, skills } from "@/lib/data";
+import { featuredProjects, skills } from "@/lib/data.tsx";
 import { Badge } from "@/components/ui/badge";
 
 export default function Home() {

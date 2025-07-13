@@ -1,7 +1,7 @@
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
-import { projects } from "@/lib/data";
+import { projects } from "@/lib/data.tsx";
 import { ArrowLeft, Github, Link as LinkIcon } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
