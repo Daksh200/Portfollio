@@ -69,19 +69,19 @@ export default function ResumePage() {
             <CardContent className="space-y-3 text-sm">
                 <div className="flex items-center gap-3">
                     <Mail className="h-4 w-4 text-muted-foreground" />
-                    <a href="mailto:daksh@email.com" className="hover:text-primary">daksh@email.com</a>
+                    <a href="mailto:djain00009@gmail.com" className="hover:text-primary">djain00009@gmail.com</a>
                 </div>
                 <div className="flex items-center gap-3">
                     <Phone className="h-4 w-4 text-muted-foreground" />
-                    <span>+1 (123) 456-7890</span>
+                    <span>+91 8431485394</span>
                 </div>
                 <div className="flex items-center gap-3">
                     <Linkedin className="h-4 w-4 text-muted-foreground" />
-                     <a href="#" className="hover:text-primary">linkedin.com/in/daksh</a>
+                     <a href="https://linkedin.com/in/daksh-331507326" target="_blank" rel="noopener noreferrer" className="hover:text-primary">linkedin.com/in/daksh-331507326</a>
                 </div>
                  <div className="flex items-center gap-3">
                     <Github className="h-4 w-4 text-muted-foreground" />
-                     <a href="#" className="hover:text-primary">github.com/daksh</a>
+                     <a href="https://github.com/Daksh200" target="_blank" rel="noopener noreferrer" className="hover:text-primary">github.com/Daksh200</a>
                 </div>
             </CardContent>
           </Card>
