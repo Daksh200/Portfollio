@@ -1,3 +1,4 @@
+
 import { Code, Cpu, Database, Paintbrush } from "lucide-react";
 import React from 'react';
 
@@ -131,12 +132,38 @@ const allProjects = [
 export const featuredProjects = allProjects.slice(0, 3);
 export const projects = allProjects;
 
-export const galleryImages = Array.from({ length: 12 }, (_, i) => ({
-  id: i + 1,
-  src: `https://placehold.co/600x${Math.floor(Math.random() * 201) + 400}.png`,
-  alt: `Gallery image ${i + 1}`,
-  aiHint: "abstract art",
-}));
+export const galleryImages = [
+  {
+    id: 1,
+    src: '/daksh01.jpg',
+    alt: 'Daksh gallery image 1',
+    aiHint: 'personal photo',
+  },
+  {
+    id: 2,
+    src: '/daksh02.jpg',
+    alt: 'Daksh gallery image 2',
+    aiHint: 'personal photo',
+  },
+  {
+    id: 3,
+    src: '/daksh03.jpg',
+    alt: 'Daksh gallery image 3',
+    aiHint: 'personal photo',
+  },
+  {
+    id: 4,
+    src: '/daksh04.jpg',
+    alt: 'Daksh gallery image 4',
+    aiHint: 'personal photo',
+  },
+  {
+    id: 5,
+    src: '/daksh05.jpg',
+    alt: 'Daksh gallery image 5',
+    aiHint: 'personal photo',
+  },
+];
 
 export const blogPosts = [
     {
