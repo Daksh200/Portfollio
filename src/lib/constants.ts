@@ -5,7 +5,6 @@ export const NAV_LINKS = [
   { name: 'Certificates', href: '/certificates' },
   { name: 'Gallery', href: '/gallery' },
   { name: 'Blog', href: '/blog' },
-  { name: 'Optimizer', href: '/optimizer' },
   { name: 'Resume', href: '/resume' },
   { name: 'Contact', href: '/contact' },
 ];
