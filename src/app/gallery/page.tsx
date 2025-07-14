@@ -1,6 +1,5 @@
 import { galleryImages } from "@/lib/data.tsx";
 import Image from "next/image";
-import { Card, CardContent } from "@/components/ui/card";
 
 export default function GalleryPage() {
   return (
@@ -11,20 +10,18 @@ export default function GalleryPage() {
           A collection of visual works, concepts, and designs.
         </p>
       </header>
-      <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+      <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3">
         {galleryImages.map((image) => (
-          <Card key={image.id} className="overflow-hidden">
-            <CardContent className="p-0">
-              <Image
-                src={image.src}
-                alt={image.alt}
-                data-ai-hint={image.aiHint}
-                width={600}
-                height={600}
-                className="h-auto w-full object-cover transition-transform duration-300 hover:scale-105"
-              />
-            </CardContent>
-          </Card>
+          <div key={image.id} className="overflow-hidden rounded-lg shadow-md">
+            <Image
+              src={image.src}
+              alt={image.alt}
+              data-ai-hint={image.aiHint}
+              width={600}
+              height={600}
+              className="h-full w-full object-cover transition-transform duration-300 hover:scale-105"
+            />
+          </div>
         ))}
       </div>
     </div>
