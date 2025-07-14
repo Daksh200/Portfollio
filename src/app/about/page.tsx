@@ -3,6 +3,7 @@ import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { workExperience, education, allSkills } from "@/lib/data.tsx";
 import { Building, GraduationCap } from "lucide-react";
+import Image from "next/image";
 
 export default function AboutPage() {
   return (
@@ -19,7 +20,7 @@ export default function AboutPage() {
           <CardHeader>
             <div className="flex items-center gap-6">
               <Avatar className="h-24 w-24">
-                <AvatarImage src="https://placehold.co/200x200.png" alt="Profile Picture" />
+                <AvatarImage src="/profile-picture.jpg" alt="Profile Picture" />
                 <AvatarFallback>D</AvatarFallback>
               </Avatar>
               <div>
