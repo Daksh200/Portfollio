@@ -78,7 +78,7 @@ export function ContactForm() {
               name="email"
               render={({ field }) => (
                 <FormItem>
-                  <FormLabel>Email</FormLabel>
+                  <FormLabel>Your Email Address</FormLabel>
                   <FormControl>
                     <Input placeholder="your.email@example.com" {...field} />
                   </FormControl>

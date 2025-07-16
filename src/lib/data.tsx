@@ -1,4 +1,3 @@
-
 import { Code, Cpu, Database, Paintbrush } from "lucide-react";
 import React from 'react';
 
@@ -28,7 +27,7 @@ export const skills = [
 export const allSkills = [
   'React', 'Next.js', 'TypeScript', 'JavaScript', 'HTML5', 'CSS3',
   'Node.js', 'Python', 'Firebase', 'PostgreSQL', 'MongoDB',
-  'Genkit AI', 'Google AI', 'LangChain',
+  'R programming', 'Google AI', 'LangChain',
   'Docker', 'Kubernetes', 'Google Cloud', 'Vercel',
   'Tailwind CSS', 'shadcn/ui', 'Three.js'
 ];
@@ -55,31 +54,195 @@ export const workExperience = [
 ];
 
 export const education = {
-  degree: "Bachelor of Science in Computer Science",
-  institution: "University of Technology",
-  period: "2012 - 2016",
+  degree: "Bachelor in Computer Science",
+  institution: "University of Mysore",
+  period: "2023 - 2025",
   description: "Graduated with honors. Focused on software engineering, algorithms, and artificial intelligence."
 };
 
 export const certificates = [
-    {
-        name: "Google AI Essentials",
-        issuer: "Google",
-        date: "2023",
-        url: "#"
-    },
-    {
-        name: "Certified Kubernetes Application Developer (CKAD)",
-        issuer: "The Linux Foundation",
-        date: "2022",
-        url: "#"
-    },
-    {
-        name: "Professional Cloud Developer",
-        issuer: "Google Cloud",
-        date: "2021",
-        url: "#"
-    }
+  {
+    issuer: "Infosys",
+    certificates: [
+      {
+        name: "Infosys Certificate 1",
+        date: "",
+        url: "",
+        image: "/certificate/infoyses/infosys certificates(all 13)_page-0001.jpg"
+      },
+      {
+        name: "Infosys Certificate 2",
+        date: "",
+        url: "",
+        image: "/certificate/infoyses/infosys certificates(all 13)_page-0002.jpg"
+      },
+      {
+        name: "Infosys Certificate 3",
+        date: "",
+        url: "",
+        image: "/certificate/infoyses/infosys certificates(all 13)_page-0003.jpg"
+      },
+      {
+        name: "Infosys Certificate 4",
+        date: "",
+        url: "",
+        image: "/certificate/infoyses/infosys certificates(all 13)_page-0004.jpg"
+      },
+      {
+        name: "Infosys Certificate 5",
+        date: "",
+        url: "",
+        image: "/certificate/infoyses/infosys certificates(all 13)_page-0005.jpg"
+      },
+      {
+        name: "Infosys Certificate 6",
+        date: "",
+        url: "",
+        image: "/certificate/infoyses/infosys certificates(all 13)_page-0006.jpg"
+      },
+      {
+        name: "Infosys Certificate 7",
+        date: "",
+        url: "",
+        image: "/certificate/infoyses/infosys certificates(all 13)_page-0007.jpg"
+      },
+      {
+        name: "Infosys Certificate 8",
+        date: "",
+        url: "",
+        image: "/certificate/infoyses/infosys certificates(all 13)_page-0008.jpg"
+      },
+      {
+        name: "Infosys Certificate 9",
+        date: "",
+        url: "",
+        image: "/certificate/infoyses/infosys certificates(all 13)_page-0009.jpg"
+      },
+      {
+        name: "Infosys Certificate 10",
+        date: "",
+        url: "",
+        image: "/certificate/infoyses/infosys certificates(all 13)_page-0010.jpg"
+      },
+      {
+        name: "Infosys Certificate 11",
+        date: "",
+        url: "",
+        image: "/certificate/infoyses/infosys certificates(all 13)_page-0011.jpg"
+      },
+      {
+        name: "Infosys Certificate 12",
+        date: "",
+        url: "",
+        image: "/certificate/infoyses/infosys certificates(all 13)_page-0012.jpg"
+      },
+      {
+        name: "Infosys Certificate 13",
+        date: "",
+        url: "",
+        image: "/certificate/infoyses/infosys certificates(all 13)_page-0013.jpg"
+      }
+    ]
+  },
+  {
+    issuer: "Forage",
+    certificates: [
+      {
+        name: "Forage Certificate 1",
+        date: "",
+        url: "",
+        image: "/certificate/Forage/forage certificates_page-0001.jpg"
+      },
+      {
+        name: "Forage Certificate 2",
+        date: "",
+        url: "",
+        image: "/certificate/Forage/forage certificates_page-0002.jpg"
+      },
+      {
+        name: "Forage Certificate 3",
+        date: "",
+        url: "",
+        image: "/certificate/Forage/forage certificates_page-0003.jpg"
+      },
+      {
+        name: "Forage Certificate 4",
+        date: "",
+        url: "",
+        image: "/certificate/Forage/forage certificates_page-0004.jpg"
+      },
+      {
+        name: "Forage Certificate 5",
+        date: "",
+        url: "",
+        image: "/certificate/Forage/forage certificates_page-0005.jpg"
+      },
+      {
+        name: "Forage Certificate 6",
+        date: "",
+        url: "",
+        image: "/certificate/Forage/forage certificates_page-0006.jpg"
+      },
+      {
+        name: "Forage Certificate 7",
+        date: "",
+        url: "",
+        image: "/certificate/Forage/forage certificates_page-0007.jpg"
+      }
+    ]
+  },
+  {
+    issuer: "Teachnook",
+    certificates: [
+      {
+        name: "Teachnook Certificate 1",
+        date: "",
+        url: "",
+        image: "/certificate/teachnook/teachnook_page-0001.jpg"
+      },
+      {
+        name: "Teachnook Certificate 2",
+        date: "",
+        url: "",
+        image: "/certificate/teachnook/teachnook_page-0002.jpg"
+      },
+      {
+        name: "Teachnook Certificate 3",
+        date: "",
+        url: "",
+        image: "/certificate/teachnook/teachnook_page-0003.jpg"
+      }
+    ]
+  },
+  {
+    issuer: "Naukri campus",
+    certificates: [
+      {
+        name: "Naukri campus Certificate 1",
+        date: "",
+        url: "",
+        image: "/certificate/Naukri campus/nakuri campus_page-0001.jpg"
+      },
+      {
+        name: "Naukri campus Certificate 2",
+        date: "",
+        url: "",
+        image: "/certificate/Naukri campus/nakuri campus_page-0002.jpg"
+      },
+      {
+        name: "Naukri campus Certificate 3",
+        date: "",
+        url: "",
+        image: "/certificate/Naukri campus/nakuri campus_page-0003.jpg"
+      },
+      {
+        name: "Naukri campus Certificate 4",
+        date: "",
+        url: "",
+        image: "/certificate/Naukri campus/nakuri campus_page-0004.jpg"
+      }
+    ]
+  }
 ];
 
 const allProjects = [
@@ -135,31 +298,31 @@ export const projects = allProjects;
 export const galleryImages = [
   {
     id: 1,
-    src: '/daksh01.jpg',
+    src: '/gallery/daksh01.jpg',
     alt: 'Daksh gallery image 1',
     aiHint: 'personal photo',
   },
   {
     id: 2,
-    src: '/daksh02.jpg',
+    src: '/gallery/daksh02.jpg',
     alt: 'Daksh gallery image 2',
     aiHint: 'personal photo',
   },
   {
     id: 3,
-    src: '/daksh03.jpg',
+    src: '/gallery/daksh03.jpg',
     alt: 'Daksh gallery image 3',
     aiHint: 'personal photo',
   },
   {
     id: 4,
-    src: '/daksh04.jpg',
+    src: '/gallery/daksh04.jpg',
     alt: 'Daksh gallery image 4',
     aiHint: 'personal photo',
   },
   {
     id: 5,
-    src: '/daksh05.jpg',
+    src: '/gallery/daksh05.jpg',
     alt: 'Daksh gallery image 5',
     aiHint: 'personal photo',
   },
@@ -167,7 +330,7 @@ export const galleryImages = [
 
 export const blogPosts = [
     {
-        title: "The Future of Web Development with AI",
+        title: "My First Bunk, First Café Outing, and a Step Out of My Shell",
         slug: "the-future-of-web-development",
         date: "2024-05-15",
         author: "Daksh",

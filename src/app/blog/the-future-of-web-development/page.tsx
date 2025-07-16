@@ -46,19 +46,44 @@ export default function BlogPostPage() {
                 />
 
                 <div className="prose prose-stone dark:prose-invert max-w-none text-lg">
-                    <p>The world of web development is in a constant state of flux, and the latest catalyst for change is Artificial Intelligence. AI is no longer a futuristic concept but a practical tool that is actively reshaping how we design, build, and deploy web applications. From generating code snippets to creating hyper-personalized user experiences, AI is poised to become an indispensable partner for developers.</p>
-                    
-                    <h2 className="font-headline">AI-Powered Coding Assistants</h2>
-                    <p>Tools like GitHub Copilot and Tabnine are already transforming the developer workflow. These AI assistants can suggest code, complete functions, and even write entire blocks of boilerplate code, significantly speeding up development time. This allows developers to focus on more complex logic and creative problem-solving rather than getting bogged down in repetitive tasks.</p>
+                    <p>Back in my 2nd PUC days at Sadvidya Composite PU College, I was the kind of student who believed in structure, discipline, and always showing up for class — every single time. I was an introvert, quiet by nature, and rarely ever took risks, especially the kind that involved skipping class and going out. But one afternoon changed everything for me.</p>
 
-                    <h2 className="font-headline">Automated Testing and Debugging</h2>
-                    <p>AI algorithms can analyze codebases to identify potential bugs, security vulnerabilities, and performance bottlenecks before they reach production. AI can also automate the generation of test cases, ensuring more comprehensive coverage and more resilient applications. This proactive approach to quality assurance is a game-changer for development teams.</p>
+                    <p>It was the first time I ever bunked a class — something that felt almost rebellious. And not just that, I bunked it to go out with friends, including girls, which was entirely new territory for me.</p>
 
-                    <h2 className="font-headline">Hyper-Personalization</h2>
-                    <p>One of the most exciting applications of AI in web development is the ability to create deeply personalized user experiences. By analyzing user behavior, preferences, and historical data, AI can dynamically tailor content, product recommendations, and UI layouts for each individual user. This level of personalization leads to higher engagement, increased conversions, and greater user satisfaction.</p>
+                    <p>The group was a mix of familiar faces and new energy:<br />
+                    Nidhi Chopra, Pranjal Bhandari, Vimla, and Muskaan Jain — the girls, all cheerful and full of life.<br />
+                    And then there was Ayush Jain, my close friend, and of course, me — Daksh.</p>
 
-                    <h2 className="font-headline">The Future is Collaborative</h2>
-                    <p>The rise of AI doesn't mean developers will become obsolete. Instead, the future of web development is one of collaboration between human creativity and artificial intelligence. By embracing AI tools, developers can augment their skills, boost their productivity, and build more sophisticated and intelligent applications than ever before. The key is to adapt, learn, and leverage these powerful new capabilities to push the boundaries of what's possible on the web.</p>
+                    <p>We decided to head to Dolphin Café, a place I had never been to. It was just a small outing for them, but for me, it felt like stepping into an entirely different world. I still remember the butterflies in my stomach, the awkwardness of trying to fit in, and the overwhelming silence inside me when everyone around me was casually chatting and laughing.</p>
+
+                    <p>I was so far outside my comfort zone, it felt like I was standing on another planet.</p>
+
+                    <p>But thankfully, Ayush was with me. He was more free-spirited, confident, and easygoing in such situations. Watching him talk, laugh, and just be himself made me feel a little more grounded. Honestly, if Ayush hadn’t been there, I’m not sure I would’ve gone through with it. His presence gave me that much-needed push — a sense of security that helped me face the unfamiliar.</p>
+
+                    <p>The six of us sat together, talked (well, they talked — I mostly listened), laughed, and shared little stories. Slowly, I found myself smiling more, speaking up a bit, and easing into the atmosphere. It wasn’t instant, but I was learning to let go of my constant self-doubt and just live in the moment.</p>
+
+                    <p>That afternoon wasn’t just about skipping class — it was a turning point.</p>
+
+                    <p>I realized that sometimes, the scariest steps are the ones that help you grow the most. For an introvert like me, who had always shied away from social spaces, that day at Dolphin Café was a personal victory. It showed me that discomfort often comes before growth, and stepping out of your bubble — even once — can change how you see the world and yourself.</p>
+
+                    <p>Looking back, I’m glad I took that risk.<br />
+                    It may have started with hesitation, but it ended with memories I’ll never forget — and a version of me I never knew existed.</p>
+
+                    <p>Just when I thought I was slowly starting to enjoy this new side of life, the atmosphere began to shift.</p>
+
+                    <p>Up until that afternoon at Dolphin Café, everything felt like a small personal victory. I was learning to come out of my shell, testing my boundaries, and making memories I thought I'd never have. But life, as it often does, had other plans.</p>
+
+                    <p>Some of my classmates, who always saw me as the “quiet, disciplined student,” didn't take my sudden change very well. They couldn’t understand that people evolve — that just because someone is introverted or studious doesn’t mean they can’t have fun or try something different. Instead of encouragement or silence, they started spreading wrong assumptions and rumors about me. Whispered judgments behind my back began to grow louder, and before I knew it, my small act of stepping out became fuel for criticism.</p>
+
+                    <p>I didn’t know how to respond.</p>
+
+                    <p>As an introvert, confrontation was never my strength. I didn’t have the courage to defend myself or clarify things. Instead, I did what I always did — I turned inward. I stopped talking, not just with those who spread the negativity, but almost with everyone. I stopped enjoying the things that had just started feeling new and exciting.</p>
+
+                    <p>And slowly, I began to hate my PU life.</p>
+
+                    <p>The campus that once felt familiar became uncomfortable. The people who once seemed like classmates felt distant. I started carrying the weight of judgment even when no one was speaking. It’s strange how quickly joy can be replaced by doubt when you feel misunderstood.</p>
+
+                    <p>Looking back, I wish I had the strength to speak up — to tell them that one moment of exploration didn’t define me, that I was still me, just learning to grow. But I didn’t. And that silence changed the way I experienced the rest of my college life.</p>
                 </div>
             </article>
         </div>
