@@ -355,5 +355,14 @@ export const blogPosts = [
         excerpt: "Comparing different state management libraries and patterns in React to help you choose the right one for your next project.",
         image: "https://placehold.co/600x400.png",
         aiHint: "React code",
+    },
+    {
+        title: "From Mysore to the Mountains: My Unexpected Trek to Harishchandragad",
+        slug: "from-mysore-to-the-mountains",
+        date: "2024-06-01",
+        author: "A Shy Guy on an Accidental Adventure",
+        excerpt: "An introvert from Mysore embarks on an unexpected trek to Harishchandragad, discovering new experiences and personal growth.",
+        image: "https://placehold.co/600x400.png",
+        aiHint: "travel trek",
     }
 ];
