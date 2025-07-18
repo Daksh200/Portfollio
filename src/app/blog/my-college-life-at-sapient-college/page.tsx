@@ -36,14 +36,31 @@ export default function BlogPostPage() {
                     </div>
                 </header>
 
-                <Image
-                    src={post.image}
-                    alt={post.title}
-                    data-ai-hint={post.aiHint}
-                    width={1200}
-                    height={675}
-                    className="w-full aspect-video rounded-lg object-cover mb-8"
-                />
+                <div className="mb-8 overflow-x-auto">
+                    <div className="flex space-x-4 min-w-max">
+                        <Image
+                            src="/blogs/Blog1.jpg"
+                            alt={`${post.title} image 1`}
+                            width={600}
+                            height={338}
+                            className="rounded-lg object-cover flex-shrink-0"
+                        />
+                        <Image
+                            src="/blogs/Blog2.jpg"
+                            alt={`${post.title} image 2`}
+                            width={600}
+                            height={338}
+                            className="rounded-lg object-cover flex-shrink-0"
+                        />
+                        <Image
+                            src="/blogs/Blog3.jpg"
+                            alt={`${post.title} image 3`}
+                            width={600}
+                            height={338}
+                            className="rounded-lg object-cover flex-shrink-0"
+                        />
+                    </div>
+                </div>
 
                 <div className="prose prose-stone dark:prose-invert max-w-none text-lg">
                     <p>🎓 A Journey to Remember – My College Life at Sapient College, Mysore</p>

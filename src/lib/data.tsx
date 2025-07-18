@@ -353,7 +353,7 @@ export const blogPosts = [
         date: "2024-06-10",
         author: "Daksh",
         excerpt: "A heartfelt reflection on unforgettable moments, friendships, and growth during college life at Sapient College, Mysore.",
-        image: "https://placehold.co/600x400.png",
+        image: "/blogs/Blog1.jpg",
         aiHint: "college life",
     }
 ];
