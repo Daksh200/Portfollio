@@ -346,5 +346,14 @@ export const blogPosts = [
         excerpt: "An introvert from Mysore embarks on an unexpected trek to Harishchandragad, discovering new experiences and personal growth.",
         image: "https://placehold.co/600x400.png",
         aiHint: "travel trek",
+    },
+    {
+        title: "My College Life at Sapient College",
+        slug: "my-college-life-at-sapient-college",
+        date: "2024-06-10",
+        author: "Daksh",
+        excerpt: "A heartfelt reflection on unforgettable moments, friendships, and growth during college life at Sapient College, Mysore.",
+        image: "https://placehold.co/600x400.png",
+        aiHint: "college life",
     }
 ];
