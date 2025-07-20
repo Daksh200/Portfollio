@@ -57,7 +57,7 @@ export const education = {
   degree: "Bachelor in Computer Science",
   institution: "University of Mysore",
   period: "2023 - 2025",
-  description: "Graduated with honors. Focused on software engineering, algorithms, and artificial intelligence."
+  description: "Focused on software engineering, algorithms, and artificial intelligence."
 };
 
 export const certificates = [
@@ -334,7 +334,7 @@ export const blogPosts = [
         slug: "the-future-of-web-development",
         date: "2024-05-15",
         author: "Daksh",
-        excerpt: "Exploring how artificial intelligence is reshaping the landscape of web development, from automated coding to personalized user experiences.",
+        excerpt: "Back in my 2nd PUC days at Sadvidya Composite PU College.",
         image: "https://placehold.co/600x400.png",
         aiHint: "AI web",
     },
@@ -342,7 +342,7 @@ export const blogPosts = [
         title: "From Mysore to the Mountains: My Unexpected Trek to Harishchandragad",
         slug: "from-mysore-to-the-mountains",
         date: "2024-06-01",
-        author: "A Shy Guy on an Accidental Adventure",
+        author: "Daksh",
         excerpt: "An introvert from Mysore embarks on an unexpected trek to Harishchandragad, discovering new experiences and personal growth.",
         image: "https://placehold.co/600x400.png",
         aiHint: "travel trek",
