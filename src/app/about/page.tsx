@@ -39,7 +39,7 @@ export default function AboutPage() {
       </section>
 
       <section className="mb-16">
-        <h2 className="font-headline mb-8 text-center text-3xl font-bold tracking-tighter sm:text-4xl">Work Experience</h2>
+<h2 className="font-headline mb-8 text-center text-3xl font-bold tracking-tighter sm:text-4xl">Professional Background</h2>
         <div className="relative pl-6 before:absolute before:inset-y-0 before:left-0 before:w-0.5 before:bg-border">
           {workExperience.map((job, index) => (
             <div key={index} className="relative mb-8 pl-8">
