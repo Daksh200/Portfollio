@@ -37,9 +37,8 @@ export default function BlogPostPage() {
         </header>
 
         <Image
-          src={post.image}
+          src="/blogs/BLog11.jpg"
           alt={post.title}
-          data-ai-hint={post.aiHint}
           width={1200}
           height={675}
           className="w-full aspect-video rounded-lg object-cover mb-8"
@@ -48,6 +47,14 @@ export default function BlogPostPage() {
         <div className="prose prose-stone dark:prose-invert max-w-none text-lg">
           <p>I’m not the adventurous type. In fact, I’m an introvert from Mysore, where life is smooth, quiet, and simple. My idea of a weekend is usually books, chai, and maybe a walk in the park. But this time, life had different plans.</p>
 
+          <Image
+            src="/blogs/BLOg22.jpg"
+            alt="Trek group"
+            width={1200}
+            height={675}
+            className="w-full aspect-video rounded-lg object-cover my-8"
+          />
+
           <p>My cousin randomly asked me to join him and his friends on a trek in Maharashtra. At first, I said no. I didn’t know the people, I had never trekked before, and honestly, I wasn’t even sure if I owned proper shoes for it. But somehow, I said yes.</p>
 
           <p>That one “yes” turned into an experience I’ll never forget.</p>
@@ -55,6 +62,14 @@ export default function BlogPostPage() {
           <h2>From Smooth Mysore to Wild Maharashtra</h2>
 
           <p>We left Mumbai early morning and drove to a village called Khireshwar, the base for the Harishchandragad trek. Right from the beginning, things felt different. The roads were rough, the weather was wild, and the people I was with were loud, funny, and full of energy.</p>
+
+          <Image
+            src="/blogs/BLog33.jpg"
+            alt="Harishchandragad trek"
+            width={1200}
+            height={675}
+            className="w-full aspect-video rounded-lg object-cover my-8"
+          />
 
           <p>Being from Mysore, I was used to calm vibes and well-planned days. But here, in Maharashtra, plans changed every hour, nobody followed time, and nature didn’t care if you were ready or not.</p>
 
@@ -65,6 +80,14 @@ export default function BlogPostPage() {
           <p>But slowly, something changed.</p>
 
           <p>We were walking through forests, climbing rocks, crossing waterfalls, and seeing views I had only seen in photos before. The group helped each other, cracked jokes, and even offered me dry snacks when I looked too tired to move.</p>
+
+          <Image
+            src="/blogs/BLog44.jpg"
+            alt="Konkankada view"
+            width={1200}
+            height={675}
+            className="w-full aspect-video rounded-lg object-cover my-8"
+          />
 
           <p>I may not have spoken much, but I was quietly enjoying every moment.</p>
 

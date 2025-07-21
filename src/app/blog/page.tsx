@@ -14,42 +14,42 @@ export default function BlogPage() {
         </p>
       </header>
       <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-        {blogPosts.map((post) => (
-          <Card key={post.slug} className="flex flex-col overflow-hidden">
-            <Link href={`/blog/${post.slug}`} className="block">
-              <Image
-                src={post.image}
-                alt={post.title}
-                data-ai-hint={post.aiHint}
-                width={600}
-                height={400}
-                className="aspect-video w-full object-cover"
-              />
-            </Link>
-            <CardHeader>
-              <CardTitle className="font-headline text-2xl">
-                <Link href={`/blog/${post.slug}`}>{post.title}</Link>
-              </CardTitle>
-              <CardDescription>{post.excerpt}</CardDescription>
-            </CardHeader>
-            <CardContent className="flex-grow"></CardContent>
-            <CardFooter className="flex justify-between text-sm text-muted-foreground">
-              <div className="flex items-center gap-4">
-                <div className="flex items-center gap-1">
-                  <User className="h-4 w-4" />
-                  <span>{post.author}</span>
-                </div>
-                <div className="flex items-center gap-1">
-                  <Calendar className="h-4 w-4" />
-                  <span>{post.date}</span>
-                </div>
-              </div>
-              <Link href={`/blog/${post.slug}`} className="flex items-center gap-1 text-primary hover:underline">
-                Read More <ArrowRight className="h-4 w-4" />
-              </Link>
-            </CardFooter>
-          </Card>
-        ))}
+{blogPosts.map((post) => (
+  <Card key={post.slug} className="flex flex-col overflow-hidden">
+    <Link href={`/blog/${post.slug}`} className="block">
+      <Image
+        src={post.slug === 'from-mysore-to-the-mountains' ? '/blogs/BLog55.jpg' : post.image}
+        alt={post.title}
+        data-ai-hint={post.aiHint}
+        width={600}
+        height={400}
+        className="aspect-video w-full object-cover"
+      />
+    </Link>
+    <CardHeader>
+      <CardTitle className="font-headline text-2xl">
+        <Link href={`/blog/${post.slug}`}>{post.title}</Link>
+      </CardTitle>
+      <CardDescription>{post.excerpt}</CardDescription>
+    </CardHeader>
+    <CardContent className="flex-grow"></CardContent>
+    <CardFooter className="flex justify-between text-sm text-muted-foreground">
+      <div className="flex items-center gap-4">
+        <div className="flex items-center gap-1">
+          <User className="h-4 w-4" />
+          <span>{post.author}</span>
+        </div>
+        <div className="flex items-center gap-1">
+          <Calendar className="h-4 w-4" />
+          <span>{post.date}</span>
+        </div>
+      </div>
+      <Link href={`/blog/${post.slug}`} className="flex items-center gap-1 text-primary hover:underline">
+        Read More <ArrowRight className="h-4 w-4" />
+      </Link>
+    </CardFooter>
+  </Card>
+))}
       </div>
     </div>
   );
