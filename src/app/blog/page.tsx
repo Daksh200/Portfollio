@@ -1,5 +1,5 @@
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
-import { blogPosts } from "@/lib/data.tsx";
+import { blogPosts } from "@/lib/data";
 import { ArrowRight, Calendar, User } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
@@ -50,6 +50,22 @@ export default function BlogPage() {
     </CardFooter>
   </Card>
 ))}
+        <a href="#" className="block cursor-not-allowed opacity-50">
+          <Card className="flex flex-col overflow-hidden">
+            <CardHeader>
+              <CardTitle>my trip to Ooty</CardTitle>
+              <CardDescription>Content is currently hidden and not available for viewing.</CardDescription>
+            </CardHeader>
+          </Card>
+        </a>
+        <a href="#" className="block cursor-not-allowed opacity-50">
+          <Card className="flex flex-col overflow-hidden">
+            <CardHeader>
+              <CardTitle>a journey to coimbatore</CardTitle>
+              <CardDescription>Content is currently hidden and not available for viewing.</CardDescription>
+            </CardHeader>
+          </Card>
+        </a>
       </div>
     </div>
   );
