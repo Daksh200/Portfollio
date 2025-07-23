@@ -1,19 +1,9 @@
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-
-export default function AIInternDetailPage() {
-  return (
-    <div className="container mx-auto max-w-4xl px-4 py-12 md:px-6 md:py-16">
-      <header className="mb-8 text-center">
-        <h1 className="font-headline text-4xl font-bold tracking-tighter sm:text-5xl">Artificial Intelligence Intern</h1>
-        <p className="text-muted-foreground">TEACHNOOK (TEACHSCAPE ONLINE LEARNING SERVICES PRIVATE LIMITED) | Sep 2024 - Nov 2024</p>
-      </header>
-      <img
-        src="/certificate/teachnook/teachnook_page-0001.jpg"
-        alt="Teachnook Internship Certificate"
-        className="mx-auto mb-8 max-w-full h-auto rounded-md shadow-md"
-      />
-      <Card>
-        <CardContent>
+Built a movie recommendation system using collaborative filtering. Created sentiment analysis tools using NLP. Designed a chatbot for FAQs. Gained hands-on experience with ML, Python, and data science.
+          </p>
+          <p>
+            Skills: Artificial Intelligence and Applications, Machine Learning
+          </p>
+=======
           <p>
             Teachnook AI Internship
           </p>
@@ -47,8 +37,3 @@ export default function AIInternDetailPage() {
           <p>
             In conclusion, this internship at Teachnook was a transformative experience that solidified my passion for AI, particularly in the field of educational technology. It not only helped me develop a strong foundation in modern AI tools and frameworks but also gave me confidence in applying this knowledge to solve real-world problems. Moving forward, I am motivated to further my education in AI and data science, with the goal of contributing meaningfully to the development of intelligent, user-centric educational platforms.
           </p>
-        </CardContent>
-      </Card>
-    </div>
-  );
-}

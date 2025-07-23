@@ -18,6 +18,14 @@ export default function MyWorksPage() {
             </CardHeader>
           </Card>
         </a>
+        <a href="/my-works/cyber-safety-digital-awareness" className="block">
+          <Card className="h-full flex flex-col">
+            <CardHeader>
+              <CardTitle>Cyber Safety & Digital Awareness Campaign – Mysore</CardTitle>
+              <CardDescription>Organized by a group of 10 final-year undergraduate students | May - July 2025</CardDescription>
+            </CardHeader>
+          </Card>
+        </a>
         <a href="/my-works/vow-gallery" className="block">
           <Card className="h-full flex flex-col">
             <CardHeader>
