@@ -36,40 +36,40 @@ export default function BlogPostPage() {
                     </div>
                 </header>
 
-                <div className="mb-8 overflow-x-auto">
-                    <div className="flex space-x-4 min-w-max">
-                        <Image
-                            src="/blogs/Blog1.jpg"
-                            alt={`${post.title} image 1`}
-                            width={600}
-                            height={338}
-                            className="rounded-lg object-cover flex-shrink-0"
-                        />
-                        <Image
-                            src="/blogs/Blog2.jpg"
-                            alt={`${post.title} image 2`}
-                            width={600}
-                            height={338}
-                            className="rounded-lg object-cover flex-shrink-0"
-                        />
-                        <Image
-                            src="/blogs/Blog3.jpg"
-                            alt={`${post.title} image 3`}
-                            width={600}
-                            height={338}
-                            className="rounded-lg object-cover flex-shrink-0"
-                        />
-                    </div>
-                </div>
+                <p>🎓 A Journey to Remember – My College Life at Sapient College, Mysore</p>
 
                 <div className="prose prose-stone dark:prose-invert max-w-none text-lg">
-                    <p>🎓 A Journey to Remember – My College Life at Sapient College, Mysore</p>
 
                     <p>As I look back on the past three years, my time at Sapient College of Commerce and Management, Mysore feels like a beautiful story filled with unforgettable moments, challenges, growth, and friendships that turned into lifelong bonds.</p>
 
+                    <Image
+                        src="/blogs/Blog1.jpg"
+                        alt={`${post.title} image 1`}
+                        width={600}
+                        height={338}
+                        className="rounded-lg object-cover my-6 mx-auto"
+                    />
+
                     <p>College wasn’t just about lectures or exams—it was a place where personalities evolved, laughter echoed through the corridors, and everyday moments turned into memories. The people I met here, especially my classmates, made this journey special in ways I’ll never forget.</p>
 
+                    <Image
+                        src="/blogs/Blog2.jpg"
+                        alt={`${post.title} image 2`}
+                        width={600}
+                        height={338}
+                        className="rounded-lg object-cover my-6 mx-auto"
+                    />
+
                     <p>This post is a dedication to that journey—and to every friend who walked beside me. Here’s a line for each one of you, written straight from the heart.</p>
+
+                <Image
+                    src="/blogs/Blog3.jpg"
+                    alt={`${post.title} image 3`}
+                    width={600}
+                    height={338}
+                    className="rounded-lg object-cover my-6 mx-auto"
+                />
+               
 
                     <p>💫 One Line for Each Friend – Through My Eyes</p>
 
@@ -187,7 +187,14 @@ export default function BlogPostPage() {
 
                     <p>Prerana Prasanna – The shortest one in the class, but her presence stood tall.</p>
 
-                    <p>💭 Final Thoughts</p>
+                     <Image
+                    src="/blogs/Blog4.jpg"
+                    alt={`${post.title} image 4`}
+                    width={600}
+                    height={338}
+                    className="rounded-lg object-cover my-6 mx-auto"
+                />
+                <p>💭 Final Thoughts</p>
 
                     <p>These three years at Sapient gave me more than a degree. They gave me friendships, stories, laughter, lessons, and a version of myself I’ll always cherish. From shared jokes and exam tension to laughter-filled classrooms and unexpected connections—every part of this journey meant something.</p>
 
