@@ -12,11 +12,7 @@ export default function AIInternDetailPage() {
         alt="Teachnook Internship Certificate"
         className="mx-auto mb-8 max-w-full h-auto rounded-md shadow-md"
       />
-      <Card>
-        <CardContent>
-          <p>
-            Teachnook AI Internship
-          </p>
+          <h2 className="text-2xl font-semibold mb-4">Teachnook AI Internship</h2>
           <p>
             During my two-month internship at Teachnook, an innovative edtech company focused on Artificial Intelligence (AI), I engaged in an intensive and structured mentorship program designed to bridge the gap between theoretical learning and practical application. The primary objective of the internship was to immerse myself in real-world AI concepts, build functional AI models, and apply them to educational contexts through hands-on projects and collaborative learning.
           </p>
@@ -47,8 +43,6 @@ export default function AIInternDetailPage() {
           <p>
             In conclusion, this internship at Teachnook was a transformative experience that solidified my passion for AI, particularly in the field of educational technology. It not only helped me develop a strong foundation in modern AI tools and frameworks but also gave me confidence in applying this knowledge to solve real-world problems. Moving forward, I am motivated to further my education in AI and data science, with the goal of contributing meaningfully to the development of intelligent, user-centric educational platforms.
           </p>
-        </CardContent>
-      </Card>
     </div>
   );
 }

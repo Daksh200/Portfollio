@@ -17,8 +17,6 @@ export default function CyberSafetyCampaignPage() {
           Supervision: Mentored by a cybersecurity educator and local police liaison
         </p>
       </header>
-      <Card>
-        <CardContent>
           <h2 className="text-xl font-semibold mb-2">🎯 Objective</h2>
           <p>
             To educate school students and parents about <strong>safe internet use</strong>, <strong>privacy protection</strong>, and <strong>digital threats</strong> like phishing, scams, and cyberbullying. The campaign aimed to promote <strong>responsible digital behavior</strong> and reduce the risks associated with online activity in a mobile-first generation.
@@ -108,8 +106,6 @@ export default function CyberSafetyCampaignPage() {
             <li>Planning to extend the campaign to <strong>rural schools in Hunsur and nearby areas</strong></li>
             <li>Working on a short <strong>Kannada video series</strong> titled <em>“Online Alli Yochisi Nadeyiri”</em> to promote digital safety for all</li>
           </ul>
-        </CardContent>
-      </Card>
     </div>
   );
 }

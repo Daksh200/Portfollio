@@ -36,6 +36,16 @@ export default function MyWorksPage() {
             </CardHeader>
           </Card>
         </a>
+        <a href="/my-works/retail-assistant-vow-gallery" className="block">
+          <Card className="h-full flex flex-col">
+            <CardHeader>
+              <CardTitle>Retail Assistant – Vow Gallery, Mysore</CardTitle>
+              <CardDescription>
+                Part-time retail assistant role involving billing, inventory, customer service, and merchandising.
+              </CardDescription>
+            </CardHeader>
+          </Card>
+        </a>
         {/* Add more cards here for other internship/work experiences as needed */}
       </section>
     </div>
