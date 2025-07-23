@@ -25,36 +25,39 @@ export const skills = [
 ];
 
 export const allSkills = [
-  'React', 'Next.js', 'TypeScript', 'JavaScript', 'HTML5', 'CSS3',
+  'React', 'Next.js', 'TypeScript', 'Artificial intelligence','JavaScript', 'HTML5', 'CSS3',
   'Node.js', 'Python', 'Firebase', 'PostgreSQL', 'MongoDB',
-  'R programming', 'Google AI', 'LangChain',
-  'Docker', 'Kubernetes', 'Google Cloud', 'Vercel',
-  'Tailwind CSS', 'shadcn/ui', 'Three.js'
+  'R programming', 'Google AI', 'Cloud computing',
+  'Docker', 'CMS', 'Vercel','C#.Net','C programming','C++ Programming',
+  'Tailwind CSS', 'shadcn/ui', 'PHP', 'MySQL','Tally ERP 9',
 ];
 
 export const workExperience = [
   {
-    role: "Senior Full Stack Developer",
-    company: "Tech Innovations Inc.",
-    period: "2020 - Present",
-    description: "Lead developer for a suite of enterprise SaaS applications. Responsible for architecting new features, mentoring junior developers, and optimizing application performance. Specialized in AI feature integration.",
+    role: "Under graduate(BCA)",
+    company: "Sapient college of commerce and management",
+    period: "2022 - 2025",
   },
   {
-    role: "Frontend Developer",
-    company: "Creative Solutions",
-    period: "2018 - 2020",
-    description: "Developed and maintained user interfaces for various client websites and web applications using React and TypeScript. Collaborated closely with UI/UX designers to implement pixel-perfect designs.",
+    role: "Diploma in computer Financial Accounting",
+    company: "Karnataka State Electronics Development Corporation (KEONICS)",
+    period: "2021 - 2021",
   },
   {
-    role: "Junior Web Developer",
-    company: "Digital Starters LLC",
-    period: "2016 - 2018",
-    description: "Assisted in the development of marketing websites and e-commerce stores. Gained foundational experience in web technologies and agile methodologies.",
+    role: "Pre-University(Commerce)",
+    company: "Sadvidya Composite PU College",
+    period: "2020 - 2022",
   },
+  {
+    role: "High School",
+    company: "GSSS Bantwal Madhava Shenoy High School",
+    period: "2009 - 2020",
+  },
+  
 ];
 
 export const education = {
-  degree: "Bachelor in Computer Science",
+  degree: "Bachelor in Computer Applications (BCA)",
   institution: "University of Mysore",
   period: "2023 - 2025",
   description: "Focused on software engineering, algorithms, and artificial intelligence."

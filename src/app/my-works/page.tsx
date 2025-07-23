@@ -1,5 +1,4 @@
-import { Building } from "lucide-react";
-import { workExperience } from "@/lib/data.tsx";
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 
 export default function MyWorksPage() {
   return (
@@ -7,22 +6,27 @@ export default function MyWorksPage() {
       <header className="mb-12 text-center">
         <h1 className="font-headline text-4xl font-bold tracking-tighter sm:text-5xl">My Works</h1>
         <p className="mx-auto mt-4 max-w-3xl text-muted-foreground md:text-xl">
-          My professional journey and accomplishments.
+          A showcase of my internship experiences and work in different companies.
         </p>
       </header>
-      <section>
-        <div className="relative pl-6 before:absolute before:inset-y-0 before:left-0 before:w-0.5 before:bg-border">
-          {workExperience.map((job, index) => (
-            <div key={index} className="relative mb-10 pl-8">
-              <div className="absolute left-[-22px] top-1 flex h-10 w-10 items-center justify-center rounded-full bg-secondary">
-                <Building className="h-5 w-5 text-primary" />
-              </div>
-              <h2 className="font-headline text-2xl font-semibold">{job.role}</h2>
-              <p className="text-md text-muted-foreground">{job.company} | {job.period}</p>
-              <p className="mt-3 text-base">{job.description}</p>
-            </div>
-          ))}
-        </div>
+      <section className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+        <a href="/my-works/artificial-intelligence-intern" className="block">
+          <Card className="h-full flex flex-col">
+            <CardHeader>
+              <CardTitle>Artificial Intelligence Intern</CardTitle>
+              <CardDescription>TEACHNOOK (TEACHSCAPE ONLINE LEARNING SERVICES PRIVATE LIMITED) | Sep 2024 - Nov 2024</CardDescription>
+            </CardHeader>
+          </Card>
+        </a>
+        <a href="/my-works/vow-gallery" className="block">
+          <Card className="h-full flex flex-col">
+            <CardHeader>
+              <CardTitle>Artificial Intelligence Intern</CardTitle>
+              <CardDescription>VOW gallery | Sep 2024 - Nov 2024</CardDescription>
+            </CardHeader>
+          </Card>
+        </a>
+        {/* Add more cards here for other internship/work experiences as needed */}
       </section>
     </div>
   );

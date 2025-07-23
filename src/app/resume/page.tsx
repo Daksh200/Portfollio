@@ -26,7 +26,7 @@ export default function ResumePage() {
           <section>
             <h2 className="font-headline mb-6 text-3xl font-bold">About</h2>
             <p className="text-muted-foreground">
-              Results-driven Full Stack Developer with over 8 years of experience in building and deploying modern web applications. Passionate about solving complex problems and creating intuitive, high-performance user experiences. Thrives in collaborative environments and is always eager to learn new technologies, with a recent focus on integrating Generative AI to build smarter applications.
+              I’m a Full Stack Developer with a strong foundation in computer applications and a passion for building modern web applications. My focus lies in solving complex problems and creating intuitive, high-performance user experiences. I thrive in collaborative environments and am always eager to learn new technologies. Recently, I've been diving deep into the world of Generative AI, integrating intelligent features into applications to create smarter and more powerful tools.
             </p>
           </section>
 
