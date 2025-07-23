@@ -36,14 +36,18 @@ export default function BlogPostPage() {
                     </div>
                 </header>
 
-                <Image
-                    src={post.image}
-                    alt={post.title}
-                    data-ai-hint={post.aiHint}
-                    width={1200}
-                    height={675}
-                    className="w-full aspect-video rounded-lg object-cover mb-8"
-                />
+        
+
+                <div className="mb-8 flex flex-col gap-6">
+                    
+                    <Image
+                        src="/blogs/SAD2.jpg"
+                        alt="SAD2"
+                        width={1200}
+                        height={675}
+                        className="w-full aspect-video rounded-lg object-cover"
+                    />
+                </div>
 
                 <div className="prose prose-stone dark:prose-invert max-w-none text-lg">
                     <p>Back in my 2nd PUC days at Sadvidya Composite PU College, I was the kind of student who believed in structure, discipline, and always showing up for class — every single time. I was an introvert, quiet by nature, and rarely ever took risks, especially the kind that involved skipping class and going out. But one afternoon changed everything for me.</p>
@@ -65,7 +69,13 @@ export default function BlogPostPage() {
                     <p>That afternoon wasn’t just about skipping class — it was a turning point.</p>
 
                     <p>I realized that sometimes, the scariest steps are the ones that help you grow the most. For an introvert like me, who had always shied away from social spaces, that day at Dolphin Café was a personal victory. It showed me that discomfort often comes before growth, and stepping out of your bubble — even once — can change how you see the world and yourself.</p>
-
+                <Image
+                        src="/blogs/SAD1.jpg"
+                        alt="SAD1"
+                        width={1200}
+                        height={675}
+                        className="w-full aspect-video rounded-lg object-cover"
+                    />
                     <p>Looking back, I’m glad I took that risk.<br />
                     It may have started with hesitation, but it ended with memories I’ll never forget — and a version of me I never knew existed.</p>
 
