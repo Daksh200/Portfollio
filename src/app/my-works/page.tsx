@@ -46,6 +46,14 @@ export default function MyWorksPage() {
             </CardHeader>
           </Card>
         </a>
+        <a href="#" className="block cursor-not-allowed opacity-50">
+          <Card className="h-full flex flex-col">
+            <CardHeader>
+              <CardTitle>Hidden Work Experience</CardTitle>
+              <CardDescription>Content is currently hidden and not available for viewing.</CardDescription>
+            </CardHeader>
+          </Card>
+        </a>
         {/* Add more cards here for other internship/work experiences as needed */}
       </section>
     </div>

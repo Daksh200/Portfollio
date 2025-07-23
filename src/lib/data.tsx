@@ -329,6 +329,18 @@ export const galleryImages = [
     alt: 'Daksh gallery image 5',
     aiHint: 'personal photo',
   },
+  {
+    id: 6,
+    src: '/gallery/daksh06.jpg',
+    alt: 'Daksh gallery image 6',
+    aiHint: 'personal photo',
+  },
+  {
+    id: 7,
+    src: '/gallery/daksh07.jpg',
+    alt: 'Daksh gallery image 7',
+    aiHint: 'personal photo',
+  },
 ];
 
 export const blogPosts = [
