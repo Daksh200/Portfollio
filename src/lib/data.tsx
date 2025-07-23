@@ -350,7 +350,7 @@ export const blogPosts = [
         date: "2024-05-15",
         author: "Daksh",
         excerpt: "Back in my 2nd PUC days at Sadvidya Composite PU College.",
-        image: "https://placehold.co/600x400.png",
+        image: "/blogs/SAD2.jpg",
         aiHint: "AI web",
     },
     {
