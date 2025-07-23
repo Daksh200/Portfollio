@@ -26,11 +26,13 @@ export default function MyWorksPage() {
             </CardHeader>
           </Card>
         </a>
-        <a href="/my-works/vow-gallery" className="block">
+        <a href="/my-works/ai-assisted-website-development" className="block">
           <Card className="h-full flex flex-col">
             <CardHeader>
-              <CardTitle>Artificial Intelligence Intern</CardTitle>
-              <CardDescription>VOW gallery | Sep 2024 - Nov 2024</CardDescription>
+              <CardTitle>AI-Assisted Website Development</CardTitle>
+              <CardDescription>
+                Collaborated on multiple web development projects using AI tools like ChatGPT, Wix ADI, Framer AI, and more.
+              </CardDescription>
             </CardHeader>
           </Card>
         </a>
