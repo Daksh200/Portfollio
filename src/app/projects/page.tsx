@@ -1,5 +1,5 @@
 import { ProjectCard } from "@/components/project-card";
-import { projects } from "@/lib/data.tsx";
+import { projects } from "@/lib/data";
 
 export default function ProjectsPage() {
   return (
@@ -11,9 +11,11 @@ export default function ProjectsPage() {
         </p>
       </header>
       <section className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
-        {projects.map((project) => (
-          <ProjectCard key={project.slug} project={project} />
-        ))}
+        {projects
+          .filter((project) => project.slug === "storage-management-solution")
+          .map((project) => (
+            <ProjectCard key={project.slug} project={project} />
+          ))}
       </section>
     </div>
   );

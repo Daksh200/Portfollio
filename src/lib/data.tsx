@@ -261,6 +261,61 @@ const allProjects = [
     details: "This project leverages Google's Gemini model through Genkit to offer users actionable feedback on their professional portfolios. The goal is to help users enhance their presentation clarity and better highlight their skills. The frontend is built with Next.js and shadcn/ui for a clean, modern user experience."
   },
   {
+    title: "Storage Management Solution",
+    description: "A modern, full-stack web application designed to streamline how users store, organize, and interact with their digital files.",
+    image: "/Project/Project1.png",
+    aiHint: "Storage management",
+    tags: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Appwrite", "PostCSS"],
+    slug: "storage-management-solution",
+    liveUrl: "https://google-drive-neon-chi.vercel.app/sign-in",
+    githubUrl: "https://github.com/Daksh200/google_drive",
+    details: `The Storage Management Solution is a modern, full-stack web application designed to streamline how users store, organize, and interact with their digital files. Built with a focus on usability, security, and performance, it provides a seamless experience for file management across all devices.
+
+Key Features:
+
+- Secure User Authentication:
+  Integrated with Appwrite to provide robust authentication and authorization, ensuring user data remains private and secure.
+
+- Comprehensive File Management:
+  Users can easily upload, download, and organize files with visual indicators, icons, and previews for an intuitive experience.
+
+- Real-Time Activity Updates:
+  Delivers instant feedback and notifications about file uploads, downloads, and organizational changes to keep users informed.
+
+- Smart Search & Sort:
+  Powerful filtering and sorting capabilities to quickly locate files based on name, type, or date.
+
+- Responsive, Mobile-First Design:
+  Styled with Tailwind CSS, the interface adapts seamlessly across desktops, tablets, and mobile devices for consistent usability.
+
+- Modular & Scalable Architecture:
+  Developed with React and Next.js, the application is component-based, making it scalable, maintainable, and ideal for future enhancements.
+
+Technologies & Tools:
+
+- Next.js: Enables server-side rendering and static generation for performance and SEO.
+- React: Powers the dynamic and interactive UI components.
+- TypeScript: Ensures type safety and improves code reliability.
+- Tailwind CSS: Accelerates styling through utility-first CSS classes.
+- Appwrite: Manages backend services like authentication, storage, and real-time database.
+- PostCSS: Enhances CSS with modern plugin-based transformations.
+
+Project Structure:
+
+/app        → Application pages and layouts  
+/components → Reusable UI components  
+/lib        → Utility functions & Appwrite integration  
+/public     → Static assets (images, icons)  
+/hooks      → Custom React hooks  
+/constants  → Global constants and enums  
+/types      → TypeScript type definitions
+
+Project Highlights:
+
+This project demonstrates end-to-end proficiency in building secure, performant, and responsive web applications. From frontend design to backend integration, it reflects a solid understanding of full-stack development using modern tools and frameworks. Ideal for showcasing skills in React, Next.js, TypeScript, and backend services with Appwrite, this solution is a significant addition to my portfolio.
+`
+  },
+  {
     title: "Interactive 3D Product Visualizer",
     description: "An immersive 3D experience for showcasing products, built with Three.js.",
     image: "https://placehold.co/600x400.png",
