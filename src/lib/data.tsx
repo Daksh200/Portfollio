@@ -316,6 +316,54 @@ This project demonstrates end-to-end proficiency in building secure, performant,
 `
   },
   {
+    title: "Google Meet Clone",
+    description: "A modern web application built using Next.js 14 and React 18, providing video call and meeting functionalities similar to Google Meet.",
+    image: "/Project/project11.jpeg",
+    aiHint: "Video meeting",
+    tags: ["Next.js", "React 18", "TypeScript", "Tailwind CSS", "next-auth", "Radix UI", "MongoDB", "ZegoCloud SDK", "react-toastify", "next-themes"],
+    slug: "google-meet",
+    liveUrl: "https://google-meet-clone-snowy.vercel.app/user-auth",
+    githubUrl: "https://github.com/Daksh200/google-meet-clone",
+    details: `Google Meet Clone is a scalable, performant, and user-friendly video meeting web application leveraging modern React and Next.js ecosystem tools.
+
+Key Features:
+
+- HD video quality, screen sharing, and secure meetings.
+- User authentication and session management with next-auth.
+- Real-time video/audio communication powered by ZegoCloud prebuilt UI kit.
+- Responsive UI with dark mode support.
+- Uses Tailwind CSS, Radix UI components, and lucide-react icons for polished UI.
+- MongoDB with mongoose for database management.
+- Toast notifications with react-toastify.
+- Local fonts optimized with next/font.
+
+Technologies and Libraries:
+
+- Next.js 14 with app directory structure.
+- React 18.
+- next-auth for authentication.
+- Tailwind CSS with tailwind-merge and tailwindcss-animate.
+- Radix UI and lucide-react icons.
+- MongoDB and mongoose.
+- @zegocloud/zego-uikit-prebuilt.
+- react-toastify.
+- next-themes for theme management.
+
+Project Structure:
+
+- Main page at src/app/page.js with meeting actions and feature highlights.
+- Video meeting rooms at src/app/video-meeting/[roomId]/page.jsx.
+- Global providers in src/app/Provider.js and root layout in src/app/layout.js.
+- UI components under src/app/components.
+- Database and models in src/lib and src/models.
+- Public assets in public directory.
+
+Deployment:
+
+Ready for deployment on Vercel leveraging Next.js optimized build and deployment capabilities.
+`
+  },
+  {
     title: "Interactive 3D Product Visualizer",
     description: "An immersive 3D experience for showcasing products, built with Three.js.",
     image: "https://placehold.co/600x400.png",
