@@ -46,6 +46,15 @@ export default function MyWorksPage() {
             </CardHeader>
           </Card>
         </a>
+        
+        <a href="/my-works/healing-through-movement" className="block">
+          <Card className="h-full flex flex-col">
+            <CardHeader>
+              <CardTitle> Healing Through Movement &amp; Community</CardTitle>
+              <CardDescription>A story of healing depression through movement, mindfulness, and community support.</CardDescription>
+            </CardHeader>
+          </Card>
+        </a>
         <a href="#" className="block cursor-not-allowed opacity-50">
           <Card className="h-full flex flex-col">
             <CardHeader>
