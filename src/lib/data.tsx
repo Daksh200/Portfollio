@@ -425,5 +425,14 @@ export const blogPosts = [
         excerpt: "A heartfelt reflection on unforgettable moments, friendships, and growth during college life at Sapient College, Mysore.",
         image: "/blogs/Blog1.jpg",
         aiHint: "college life",
+    },
+    {
+        title: "🎭 Graduation or Graduation Drama?",
+        slug: "graduation-or-graduation-drama",
+        date: "2025-07-25",
+        author: "Daksh",
+        excerpt: "A Day of Trophies, Truth Bombs, and Too Many Fake Smiles",
+        image: "/blogs/dak3.jpg",
+        aiHint: "graduation drama"
     }
 ];
