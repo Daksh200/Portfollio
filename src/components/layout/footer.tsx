@@ -11,9 +11,7 @@ export function Footer() {
           © {new Date().getFullYear()} Daksh's Portfolio. All rights reserved.
         </p>
         <div className="flex items-center gap-4">
-          <Link href="#" aria-label="Twitter">
-            <Twitter className="h-6 w-6 text-muted-foreground transition-colors hover:text-primary" />
-          </Link>
+          {/* Removed Twitter link as per user request */}
           <Link href="#" aria-label="GitHub">
             <Github className="h-6 w-6 text-muted-foreground transition-colors hover:text-primary" />
           </Link>
