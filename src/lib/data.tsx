@@ -491,5 +491,14 @@ export const blogPosts = [
         excerpt: "A memorable trip with friends to Coimbatore filled with unexpected twists, laughter, and life lessons.",
         image: "/blogs/BG04.jpg",
         aiHint: "travel, friends, trip",
+    },
+    {
+        title: "Coastline Chaos: A Beach Trip That Began With Chai in Mira-Bhayandar",
+        slug: "coastline-chaos-beach-trip-mira-bhayandar",
+        date: "2024-06-10",
+        author: "Daksh",
+        excerpt: "An introvert from Mysore experiences a chaotic and unforgettable beach trip to Tarkarli with new friends from Mira-Bhayandar.",
+        image: "/blogs/BB01.jpg",
+        aiHint: "travel, beach, trip",
     }
 ];
