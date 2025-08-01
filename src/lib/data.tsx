@@ -261,6 +261,72 @@ const allProjects = [
     details: "This project leverages Google's Gemini model through Genkit to offer users actionable feedback on their professional portfolios. The goal is to help users enhance their presentation clarity and better highlight their skills. The frontend is built with Next.js and shadcn/ui for a clean, modern user experience."
   },
   {
+    title: "Invoice IQ – Smart Invoice and Receipt Management",
+    description: "Self-hosted AI-powered financial management system for freelancers and small businesses to automate invoice and receipt handling.",
+    image: "/Project/Pro2.png",
+    aiHint: "Invoice management",
+    tags: ["Next.js", "React.js", "Tailwind CSS", "Node.js", "TypeScript", "Prisma ORM", "PostgreSQL", "OpenAI APIs", "pdf2pic", "Sharp", "Sentry", "Docker", "Git", "Blackbox.ai"],
+    slug: "invoice-iq",
+    liveUrl: "#",
+    githubUrl: "https://github.com/Daksh200",
+    details: `OVERVIEW
+
+Invoice IQ is a self-hosted, AI-powered financial management system built to automate and streamline the handling of invoices, receipts, and financial documents. Designed specifically for freelancers and small businesses, this project addresses the core challenges of manual bookkeeping, such as error-prone data entry, lack of automation, poor reporting capabilities, and limited access to affordable tools.
+
+With growing financial complexity and document diversity, traditional invoicing methods are no longer efficient. Invoice IQ introduces an intelligent and secure alternative that automates data extraction, categorization, and reporting—making accounting easier, faster, and more accurate.
+
+Key Objectives
+
+* Automate invoice and receipt management using Generative AI.
+* Provide multi-currency and cryptocurrency support with automatic historical exchange rate conversions.
+* Offer customization of AI prompts, categories, and data fields.
+* Enable real-time insights and flexible data export options.
+* Allow secure self-hosting, giving users full control over sensitive financial data.
+
+Technology Stack
+
+* Frontend: Next.js, React.js, Tailwind CSS
+* Backend: Node.js, TypeScript, Prisma ORM
+* Database: PostgreSQL
+* AI & Tools: OpenAI APIs, pdf2pic, Sharp, Sentry, Docker, Git, Blackbox.ai
+
+These technologies ensure a modern, fast, and scalable platform that supports secure document processing and real-time data management.
+
+Features and Capabilities
+
+* 📄 AI Document Recognition: Extracts key information (date, amount, VAT, etc.) from scanned images, PDFs, and photos.
+* 💱 Multi-Currency Support: Converts values from 170+ fiat currencies and 14 cryptocurrencies using historical rates.
+* 🔍 Advanced Filtering & Search: Enables efficient transaction retrieval and report generation.
+* 🔄 Import/Export Options: Supports CSV, PDF, and image formats for seamless data handling.
+* 🛡 Data Privacy: Fully self-hosted with backup and restore features, eliminating third-party data risks.
+* 📊 Real-Time Dashboard: Displays visual summaries of financial activity and supports full audit logs.
+
+Real-World Use Cases
+
+* A freelancer issues invoices to global clients and tracks payments via Stripe. The system logs transactions and converts currencies automatically.
+* A content creator receives earnings in USD, uploads their invoices, and Invoice IQ categorizes them as "Digital Earnings" for easier tax filing.
+
+Challenges and Solutions
+
+* AI accuracy was refined through prompt tuning and error feedback loops.
+* Currency handling was addressed using historical exchange rate APIs.
+* Self-hosting complexity was reduced through Docker-based containerization.
+* Performance bottlenecks were solved using asynchronous processing queues.
+
+Future Enhancements
+
+* Native Android/iOS apps for mobile access
+* Integration with external accounting platforms (e.g., QuickBooks)
+* Advanced reporting for tax calculations
+* Team collaboration features for multi-user workflows
+* Continuous AI learning from user feedback
+
+Conclusion
+
+Invoice IQ is a forward-thinking project that merges AI with practical financial needs. It offers freelancers and small businesses an intelligent, affordable, and private solution for managing financial records. By combining advanced technologies with real-world usability, this project exemplifies how software can meaningfully improve everyday business operations.
+`
+  },
+  {
     title: "Storage Management Solution",
     description: "A modern, full-stack web application designed to streamline how users store, organize, and interact with their digital files.",
     image: "/Project/Project1.png",

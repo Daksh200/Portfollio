@@ -2,10 +2,10 @@ import { ProjectCard } from "@/components/project-card";
 import { projects } from "@/lib/data";
 
 export default function ProjectsPage() {
-  // Filter projects to keep only storage management solution and google meet clone
+  // Filter projects to keep storage management solution, google meet clone, and invoice iq
   const filteredProjects = projects.filter(
     (project) =>
-      project.slug === "storage-management-solution" || project.slug === "google-meet"
+      project.slug === "storage-management-solution" || project.slug === "google-meet" || project.slug === "invoice-iq"
   );
 
   return (
