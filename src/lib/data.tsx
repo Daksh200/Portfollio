@@ -482,5 +482,14 @@ export const blogPosts = [
         excerpt: "A Day of Trophies, Truth Bombs, and Too Many Fake Smiles",
         image: "/blogs/dak3.jpg",
         aiHint: "graduation drama"
+    },
+    {
+        title: "Coimbatore Diaries: 6 Friends, 1 Car, and a 5-Star Misunderstanding",
+        slug: "coimbatore-diaries-6-friends-1-car-5-star-misunderstanding",
+        date: "2024-06-10",
+        author: "Daksh",
+        excerpt: "A memorable trip with friends to Coimbatore filled with unexpected twists, laughter, and life lessons.",
+        image: "/blogs/BG04.jpg",
+        aiHint: "travel, friends, trip",
     }
 ];
