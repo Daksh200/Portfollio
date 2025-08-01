@@ -12,10 +12,10 @@ export function Footer() {
         </p>
         <div className="flex items-center gap-4">
           {/* Removed Twitter link as per user request */}
-          <Link href="#" aria-label="GitHub">
+          <Link href="https://github.com/Daksh200" aria-label="GitHub" target="_blank" rel="noopener noreferrer">
             <Github className="h-6 w-6 text-muted-foreground transition-colors hover:text-primary" />
           </Link>
-          <Link href="#" aria-label="LinkedIn">
+          <Link href="https://linkedin.com/in/daksh-331507326" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
             <Linkedin className="h-6 w-6 text-muted-foreground transition-colors hover:text-primary" />
           </Link>
         </div>
