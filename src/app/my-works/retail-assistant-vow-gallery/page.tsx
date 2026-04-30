@@ -4,7 +4,7 @@ export default function RetailAssistantVowGalleryPage() {
       <h1 className="font-headline text-4xl font-bold mb-6">Retail Assistant – Vow Gallery, Mysore</h1>
       <section className="mb-8">
         <p><strong>Location:</strong> D. Devaraj Urs Road, Mysore</p>
-        <p><strong>Duration:</strong> May 2023 – July 2023 (Summer Break after 1st Year, 2nd Semester)</p>
+        <p><strong>Duration:</strong> May 2025 – July 2023 (Summer Break after 1st Year, 2nd Semester)</p>
         <p><strong>Type:</strong> In-person, Part-Time (Holiday Engagement)</p>
         <p><strong>Role:</strong> Retail Assistant / Floor Support</p>
       </section>

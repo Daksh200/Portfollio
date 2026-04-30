@@ -14,7 +14,7 @@ export default function MyWorksPage() {
           <Card className="h-full flex flex-col">
             <CardHeader>
               <CardTitle>Freelance Web Developer</CardTitle>
-              <CardDescription>Helping small & medium scale businesses build their online presence | 2023 - Present</CardDescription>
+              <CardDescription>Helping small & medium scale businesses build their online presence | 2026 - Present</CardDescription>
             </CardHeader>
           </Card>
         </a>

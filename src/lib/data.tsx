@@ -356,7 +356,7 @@ const allProjects = [
 {
     title: "Kothari Creation",
     description: "A custom business website built for a client to showcase their products and establish their online presence. This freelance project demonstrates the ability to deliver professional web solutions for small and medium scale businesses.",
-    image: "/Project/Kothari-Creation.png",
+image: "/Project/KC1.png",
     aiHint: "Business website",
     tags: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Vercel"],
     slug: "kothari-creation",
