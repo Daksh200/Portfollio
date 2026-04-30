@@ -2,8 +2,8 @@
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { workExperience, education, allSkills } from "@/lib/data.tsx";
-import { Building, GraduationCap } from "lucide-react";
+import { education, allSkills } from "@/lib/data.tsx";
+import { GraduationCap } from "lucide-react";
 import Image from "next/image";
 
 export default function AboutPage() {
@@ -38,37 +38,25 @@ export default function AboutPage() {
         </Card>
       </section>
 
-      <section className="mb-16">
-<h2 className="font-headline mb-8 text-center text-3xl font-bold tracking-tighter sm:text-4xl">Professional Background</h2>
-        <div className="relative pl-6 before:absolute before:inset-y-0 before:left-0 before:w-0.5 before:bg-border">
-          {workExperience.map((job, index) => (
-            <div key={index} className="relative mb-8 pl-8">
-              <div className="absolute left-[-22px] top-1 flex h-10 w-10 items-center justify-center rounded-full bg-secondary">
-                <Building className="h-5 w-5 text-primary" />
-              </div>
-              <p className="font-semibold">{job.role}</p>
-              <p className="text-sm text-muted-foreground">{job.company} | {job.period}</p>
-              <p className="mt-2 text-sm">{job.description}</p>
-            </div>
-          ))}
-        </div>
-      </section>
-      
-      <div className="grid gap-12 md:grid-cols-2">
-        <section>
+<div className="grid gap-12 md:grid-cols-2">
+<section>
           <h2 className="font-headline mb-8 text-center text-3xl font-bold tracking-tighter sm:text-4xl">Education</h2>
-            <Card>
+          <div className="space-y-4">
+            {education.map((edu, index) => (
+              <Card key={index}>
                 <CardHeader className="flex flex-row items-center gap-4">
-                    <GraduationCap className="h-10 w-10 text-primary" />
-                    <div>
-                        <CardTitle className="font-headline text-xl">{education.degree}</CardTitle>
-                        <CardDescription>{education.institution} | {education.period}</CardDescription>
-                    </div>
+                  <GraduationCap className="h-10 w-10 text-primary" />
+                  <div>
+                    <CardTitle className="font-headline text-xl">{edu.degree}</CardTitle>
+                    <CardDescription>{edu.institution} | {edu.period}</CardDescription>
+                  </div>
                 </CardHeader>
                 <CardContent>
-                    <p className="text-sm text-muted-foreground">{education.description}</p>
+                  <p className="text-sm text-muted-foreground">{edu.description}</p>
                 </CardContent>
-            </Card>
+              </Card>
+            ))}
+          </div>
         </section>
 
         <section>

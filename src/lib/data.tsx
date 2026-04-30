@@ -25,11 +25,41 @@ export const skills = [
 ];
 
 export const allSkills = [
-  'React', 'Next.js', 'TypeScript', 'Artificial intelligence','JavaScript', 'HTML5', 'CSS3',
-  'Node.js', 'Python', 'Firebase', 'PostgreSQL', 'MongoDB',
-  'R programming', 'Google AI', 'Cloud computing',
-  'Docker', 'CMS', 'Vercel','C#.Net','C programming','C++ Programming',
-  'Tailwind CSS', 'shadcn/ui', 'PHP', 'MySQL','Tally ERP 9',
+  // Web Development
+  'React', 'Next.js', 'TypeScript', 'JavaScript', 'HTML5', 'CSS3',
+  'Tailwind CSS', 'shadcn/ui', 'Vue.js', 'Angular', 'jQuery', 'Bootstrap',
+  'Material UI', 'Framer Motion', 'Redux', 'Context API',
+  
+  // Programming Languages
+  'Python', 'Java', 'C#', 'C programming', 'C++ Programming', 'Ruby', 'Go', 'Rust', 'Swift', 'Kotlin', 'R programming',
+  
+  // Backend & APIs
+  'Node.js', 'Express', 'Django', 'Flask', 'FastAPI', 'Spring Boot', 'ASP.NET Core',
+  'REST APIs', 'GraphQL', 'WebSockets', 'JSON', 'XML',
+  
+  // Databases
+  'MySQL', 'PostgreSQL', 'MongoDB', 'Firebase', 'Redis', 'SQLite', 'Oracle', 'SQL',
+  
+  // AI & Machine Learning
+  'Artificial Intelligence', 'Machine Learning', 'Deep Learning', 'TensorFlow', 'PyTorch',
+  'Keras', 'Scikit-Learn', 'Pandas', 'NumPy', 'Matplotlib', 'OpenCV', 'Jupyter Notebook',
+  'OpenAI API', 'ChatGPT', 'Google Gemini', 'Claude', 'Perplexity AI', 'Copilot',
+  
+  // Cloud & DevOps
+  'AWS', 'Google Cloud', 'Azure', 'Cloud computing', 'Heroku', 'Vercel', 'Netlify',
+  'Docker', 'Kubernetes', 'Jenkins', 'CI/CD', 'Git',
+  
+  // Version Control & Tools
+  'GitHub', 'GitLab', 'Bitbucket', 'VS Code', 'Figma', 'Postman', 'Docker Compose',
+  
+  // Data & Analytics
+  'Basic Statistics', 'Data Analysis', 'Tableau', 'Power BI', 'Excel',
+  
+  // Office & Productivity
+  'MS Office', 'Microsoft Excel', 'Word', 'PowerPoint', 'Outlook',
+  
+  // Other
+  'CMS', 'Tally ERP 9', 'PHP', 'WordPress', 'SEO', 'Performance Optimization'
 ];
 
 export const workExperience = [
@@ -37,31 +67,61 @@ export const workExperience = [
     role: "Under graduate(BCA)",
     company: "Sapient college of commerce and management",
     period: "2022 - 2025",
+    description: "Bachelor in Computer Applications degree program focusing on software development and programming.",
   },
   {
     role: "Diploma in computer Financial Accounting",
     company: "Karnataka State Electronics Development Corporation (KEONICS)",
-    period: "2021 - 2021",
+    period: "2021",
+    description: "Computerized accounting and financial management software training.",
   },
   {
     role: "Pre-University(Commerce)",
     company: "Sadvidya Composite PU College",
     period: "2020 - 2022",
+    description: "Higher secondary education in Commerce stream with subjects like Accountancy, Economics, and Business Studies.",
   },
   {
     role: "High School",
     company: "GSSS Bantwal Madhava Shenoy High School",
     period: "2009 - 2020",
+    description: "Primary and secondary school education with strong academic foundation.",
   },
   
 ];
 
-export const education = {
-  degree: "Bachelor in Computer Applications (BCA)",
-  institution: "University of Mysore",
-  period: "2023 - 2025",
-  description: "Focused on software engineering, algorithms, and artificial intelligence."
-};
+export const education = [
+  {
+    degree: "Master of Computer Applications (MCA)",
+    institution: "Chandigarh University",
+    period: "2025 - 2027",
+    description: "Advanced studies in software engineering, algorithms, and artificial intelligence."
+  },
+  {
+    degree: "Bachelor in Computer Applications (BCA)",
+    institution: "University of Mysore",
+    period: "2022 - 2025",
+    description: "Focused on software engineering, algorithms, and artificial intelligence."
+  },
+  {
+    degree: "Diploma in Computer Financial Accounting",
+    institution: "Karnataka State Electronics Development Corporation (KEONICS)",
+    period: "2021",
+    description: "Computerized accounting and financial management software."
+  },
+  {
+    degree: "Pre-University (Commerce)",
+    institution: "Sadvidya Composite PU College",
+    period: "2020 - 2022",
+    description: "Higher secondary education in Commerce stream."
+  },
+  {
+    degree: "High School",
+    institution: "GSSS Bantwal Madhava Shenoy High School",
+    period: "2009 - 2020",
+    description: "Primary and secondary education."
+  }
+];
 
 export const certificates = [
   {
@@ -249,6 +309,47 @@ export const certificates = [
 ];
 
 const allProjects = [
+{
+    title: "Fraud Detection Rules Engine",
+    description: "A modern web app to design, test, and monitor fraud detection rules. This project showcases an intuitive interface for rule creation, versioning, and performance exploration. Built under the guidance of Infosys Springboard Virtual Internship 6.0.",
+    image: "/Project/rules1.png",
+    aiHint: "Fraud detection rules",
+    tags: ["React", "TypeScript", "Tailwind CSS", "shadcn/ui", "Netlify", "Vue"],
+    slug: "fraud-detection-rules-engine",
+    liveUrl: "https://frolinking-crepe-d00cf4.netlify.app",
+    githubUrl: "https://github.com/Daksh200/Infosys_Final_Internship_Project-DAKSH",
+    details: `Infosys Springboard Internship 6.0 - Fraud Detection Rules Engine
+
+A modern web application to design, test, and monitor fraud detection rules. This project showcases an intuitive interface for rule creation, versioning, and performance exploration.
+
+Key Features:
+
+- Create, edit, drag and drop, clone, and publish rules
+- Toggle active/inactive status
+- Versioning with notes
+- Performance dashboards and triggered claims views
+- Audit log with CSV export
+
+Tech Stack:
+
+- Vue, React, TypeScript
+- TailwindCSS
+- shadcn UI, Lucide Icons
+
+Live Demo:
+- https://frolinking-crepe-d00cf4.netlify.app
+
+Repository:
+- https://github.com/Daksh200/Infosys_Final_Internship_Project-DAKSH
+
+Project Structure (Brief):
+
+- client/: React frontend application
+- Server side: Full stack implementation
+
+This project was built under the Infosys Springboard Internship program and demonstrates proficiency in building complex web applications with modern technologies.
+`
+  },
   {
     title: "AI-Powered Portfolio Analyzer",
     description: "A tool that uses generative AI to analyze portfolio content and provide suggestions for improvement.",
@@ -467,50 +568,7 @@ Ready for deployment on Vercel leveraging Next.js optimized build and deployment
 export const featuredProjects = allProjects.slice(0, 3);
 export const projects = allProjects;
 
-export const galleryImages = [
-  {
-    id: 1,
-    src: '/gallery/daksh01.jpg',
-    alt: 'Daksh gallery image 1',
-    aiHint: 'personal photo',
-  },
-  {
-    id: 2,
-    src: '/gallery/daksh02.jpg',
-    alt: 'Daksh gallery image 2',
-    aiHint: 'personal photo',
-  },
-  {
-    id: 3,
-    src: '/gallery/daksh03.jpg',
-    alt: 'Daksh gallery image 3',
-    aiHint: 'personal photo',
-  },
-  {
-    id: 4,
-    src: '/gallery/daksh04.jpg',
-    alt: 'Daksh gallery image 4',
-    aiHint: 'personal photo',
-  },
-  {
-    id: 5,
-    src: '/gallery/daksh05.jpg',
-    alt: 'Daksh gallery image 5',
-    aiHint: 'personal photo',
-  },
-  {
-    id: 6,
-    src: '/gallery/daksh06.jpg',
-    alt: 'Daksh gallery image 6',
-    aiHint: 'personal photo',
-  },
-  {
-    id: 7,
-    src: '/gallery/daksh07.jpg',
-    alt: 'Daksh gallery image 7',
-    aiHint: 'personal photo',
-  },
-];
+
 
 export const blogPosts = [
     {

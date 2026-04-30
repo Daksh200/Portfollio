@@ -23,7 +23,7 @@ export default function AIAssistedWebsiteDevelopmentPage() {
           </li>
           <li>
             <strong>NGO Informational Website</strong><br />
-            Collaborated with a local NGO to design an informational site using Durable AI Website Builder. Customized AI-generated templates for About, Projects, Volunteer Sign-Up, and Gallery. Used ChatGPT to create structured, formal content and guided the NGO team on basic site maintenance.
+Customized AI-generated templates for About, Projects, Volunteer Sign-Up, and more. Used ChatGPT to create structured, formal content and guided the NGO team on basic site maintenance.
           </li>
         </ul>
       </section>

@@ -15,7 +15,7 @@ export function Footer() {
           <Link href="https://github.com/Daksh200" aria-label="GitHub" target="_blank" rel="noopener noreferrer">
             <Github className="h-6 w-6 text-muted-foreground transition-colors hover:text-primary" />
           </Link>
-          <Link href="https://linkedin.com/in/daksh-331507326" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
+          <Link href="https://www.linkedin.com/in/daksh-jain29/" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
             <Linkedin className="h-6 w-6 text-muted-foreground transition-colors hover:text-primary" />
           </Link>
         </div>
