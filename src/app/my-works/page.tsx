@@ -9,7 +9,15 @@ export default function MyWorksPage() {
           A showcase of my internship experiences and work in different companies.
         </p>
       </header>
-      <section className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+<section className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+        <a href="/my-works/infosys-internship" className="block">
+          <Card className="h-full flex flex-col">
+            <CardHeader>
+              <CardTitle>Infosys Springboard Internship</CardTitle>
+              <CardDescription>A modern web app to design, test, and monitor fraud detection rules.|  Nov 2025 - Jan 2026</CardDescription>
+            </CardHeader>
+          </Card>
+        </a>
         <a href="/my-works/artificial-intelligence-intern" className="block">
           <Card className="h-full flex flex-col">
             <CardHeader>
@@ -46,7 +54,6 @@ export default function MyWorksPage() {
             </CardHeader>
           </Card>
         </a>
-        
         <a href="/my-works/healing-through-movement" className="block">
           <Card className="h-full flex flex-col">
             <CardHeader>
