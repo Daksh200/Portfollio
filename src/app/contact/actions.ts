@@ -1,47 +1,50 @@
 'use server';
 
 import { z } from 'zod';
-import nodemailer from 'nodemailer';
 
 const contactSchema = z.object({
-  name: z.string(),
-  email: z.string().email(),
-  message: z.string(),
+  name: z.string().min(2, { message: 'Name must be at least 2 characters.' }),
+  email: z.string().email({ message: 'Please enter a valid email address.' }),
+  message: z.string().min(10, { message: 'Message must be at least 10 characters.' }),
 });
+
+// Formspree endpoint - replace with your own form ID from https://formspree.io
+const FORMSPREE_ENDPOINT = 'https://formspree.io/f/mykogalw';
 
 export async function sendEmail(formData: z.infer<typeof contactSchema>) {
   try {
     const validatedData = contactSchema.parse(formData);
 
-    // Create a transporter using SMTP credentials from environment variables
-    const transporter = nodemailer.createTransport({
-      host: process.env.SMTP_HOST,
-      port: Number(process.env.SMTP_PORT) || 587,
-      secure: process.env.SMTP_SECURE === 'true', // true for 465, false for other ports
-      auth: {
-        user: process.env.SMTP_USER,
-        pass: process.env.SMTP_PASS,
+    // Send data to Formspree API
+    const response = await fetch(FORMSPREE_ENDPOINT, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'Accept': 'application/json',
       },
+      body: JSON.stringify({
+        name: validatedData.name,
+        email: validatedData.email,
+        message: validatedData.message,
+      }),
     });
 
-    // Email message options
-    const mailOptions = {
-      from: `"${validatedData.name}" <${validatedData.email}>`,
-      to: process.env.CONTACT_EMAIL, // Your email address to receive messages
-      subject: `New Contact Form Message from ${validatedData.name}`,
-      text: validatedData.message,
-      html: `<p>${validatedData.message}</p><p>From: ${validatedData.name} (${validatedData.email})</p>`,
-    };
+    if (!response.ok) {
+      throw new Error('Failed to submit form');
+    }
 
-    // Send email
-    await transporter.sendMail(mailOptions);
+    const result = await response.json();
 
-    return { success: true, message: 'Email sent successfully!' };
+    if (result.ok) {
+      return { success: true, message: 'Message sent successfully!' };
+    } else {
+      return { success: false, message: 'Failed to send message. Please try again.' };
+    }
   } catch (error) {
     console.error('Error sending email:', error);
     if (error instanceof z.ZodError) {
       return { success: false, message: 'Invalid form data.' };
     }
-    return { success: false, message: 'An unexpected error occurred.' };
+    return { success: false, message: 'An unexpected error occurred. Please try again.' };
   }
 }

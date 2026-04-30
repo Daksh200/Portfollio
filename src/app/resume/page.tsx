@@ -87,7 +87,7 @@ export default function ResumePage() {
                 </div>
                 <div className="flex items-center gap-3">
                     <Linkedin className="h-4 w-4 text-muted-foreground" />
-                     <a href="https://www.linkedin.com/in/daksh-jain29/" target="_blank" rel="noopener noreferrer" className="hover:text-primary">linkedin.com/in/daksh-331507326</a>
+                     <a href="https://www.linkedin.com/in/daksh-jain29/" target="_blank" rel="noopener noreferrer" className="hover:text-primary">linkedin.com/in/daksh-jain29/</a>
                 </div>
                  <div className="flex items-center gap-3">
                     <Github className="h-4 w-4 text-muted-foreground" />
