@@ -9,12 +9,20 @@ export default function MyWorksPage() {
           A showcase of my internship experiences and work in different companies.
         </p>
       </header>
-<section className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+      <section className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+        <a href="/my-works/freelance-web-developer" className="block">
+          <Card className="h-full flex flex-col">
+            <CardHeader>
+              <CardTitle>Freelance Web Developer</CardTitle>
+              <CardDescription>Helping small & medium scale businesses build their online presence | 2023 - Present</CardDescription>
+            </CardHeader>
+          </Card>
+        </a>
         <a href="/my-works/infosys-internship" className="block">
           <Card className="h-full flex flex-col">
             <CardHeader>
               <CardTitle>Infosys Springboard Internship</CardTitle>
-              <CardDescription>A modern web app to design, test, and monitor fraud detection rules.|  Nov 2025 - Jan 2026</CardDescription>
+              <CardDescription>A modern web app to design, test, and monitor fraud detection rules. | Nov 2025 - Jan 2026</CardDescription>
             </CardHeader>
           </Card>
         </a>

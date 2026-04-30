@@ -354,6 +354,50 @@ export const certificates = [
 
 const allProjects = [
 {
+    title: "Kothari Creation",
+    description: "A custom business website built for a client to showcase their products and establish their online presence. This freelance project demonstrates the ability to deliver professional web solutions for small and medium scale businesses.",
+    image: "/Project/Kothari-Creation.png",
+    aiHint: "Business website",
+    tags: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Vercel"],
+    slug: "kothari-creation",
+    liveUrl: "https://kothari-creation.vercel.app/",
+    githubUrl: "https://github.com/Daksh200/KOTHARI_CREATION",
+    details: `Kothari Creation - Client Project
+
+A custom business website developed for a client to help them build their reputation in the web world. This project showcases my ability to understand client requirements and deliver professional web solutions.
+
+Project Overview:
+
+- Built a modern, responsive website for a business to showcase their products
+- Deployed on Vercel for reliable fast performance
+- Custom design tailored to client's brand identity
+
+Key Features:
+
+- Product showcase with image gallery
+- About the business section
+- Contact information and inquiry form
+- Mobile-responsive design
+- SEO optimized
+
+Technology Stack:
+
+- Next.js 14 with App Router
+- React 18
+- TypeScript
+- Tailwind CSS
+- Vercel Deployment
+
+This project demonstrates my freelance web development capabilities and understanding of client needs. The client wanted a professional online presence to compete in the market, and the delivered website helped them establish their brand identity.
+
+GitHub Repository:
+- https://github.com/Daksh200/KOTHARI_CREATION
+
+Live Demo:
+- https://kothari-creation.vercel.app/
+`
+  },
+{
     title: "Fraud Detection Rules Engine",
     description: "A modern web app to design, test, and monitor fraud detection rules. This project showcases an intuitive interface for rule creation, versioning, and performance exploration. Built under the guidance of Infosys Springboard Virtual Internship 6.0.",
     image: "/Project/rules1.png",
