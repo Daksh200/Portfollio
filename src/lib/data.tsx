@@ -277,7 +277,7 @@ export const certificates = [
       }
     ]
   },
-  {
+{
     issuer: "Naukri campus",
     certificates: [
       {
@@ -303,6 +303,50 @@ export const certificates = [
         date: "",
         url: "",
         image: "/certificate/Naukri campus/nakuri campus_page-0004.jpg"
+      }
+    ]
+  },
+  {
+    issuer: "Claud_codein action",
+    certificates: [
+      {
+        name: "Claud_codein Action Certificate",
+        date: "",
+        url: "",
+        image: "/certificate/Claud_codein action/page_1.png"
+      }
+    ]
+  },
+  {
+    issuer: "DIFA GOV OF KAR",
+    certificates: [
+      {
+        name: "DIFA Certificate",
+        date: "",
+        url: "",
+        image: "/certificate/DIFA_GOV_OF_KAR/DICFA.png"
+      }
+    ]
+  },
+{
+    issuer: "GeeksforGeeks",
+    certificates: [
+      {
+        name: "Full Stack Web Development",
+        date: "",
+        url: "",
+        image: "/certificate/greek for greek/GFG FSD.png"
+      }
+    ]
+  },
+  {
+    issuer: "Infosys Internship",
+    certificates: [
+      {
+        name: "Infosys Internship Certificate",
+        date: "",
+        url: "",
+        image: "/certificate/Infosys Intenship/infosys_intenship_certificate.png"
       }
     ]
   }
